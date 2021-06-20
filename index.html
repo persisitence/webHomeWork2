@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>第二次作业</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<header>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark green">
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="#">中国美食</a>
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+            aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://zhidao.baidu.com/question/2123286996647497867.html"
+                        target="_blank">
+                        美食定义
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">中国美食菜系</a>
+                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item"
+                            href="https://www.baidu.com/link?url=DTS0mcXXr7rQxczSVWVwliKYkZfAFntmX0gvxqqqi7GeQwu6UhBHQiv8h-GsjM2pAhoT_hqY4mC6iZIYFutJwO7wz3qD1OzPFNUJQVNfYtm&wd=&eqid=e01dc1490022c21e0000000660cdf613"
+                            target="_blank">粤菜</a>
+                        <a class="dropdown-item"
+                            href="https://www.baidu.com/link?url=IFWT6Sk_EfSeowndn76B3ZD9Xjq0uQ3GPZgi6c6HQetzIeYrTgfXYWVNRG4g45QQNt2bVZ8lqYjtuLOKcYi0WeGrF7-LgbupGqvIeuyMRBa&wd=&eqid=bbe4e72300228c3c0000000660cdf5e5"
+                            target="_blank">川菜</a>
+                        <a class="dropdown-item"
+                            href="https://www.baidu.com/link?url=KzVZFBKhtmYohtehFeUbDFJM8axWn-0cGsZqOmWa1GEFoWhtvYGidTwZnS4sEq4PqxfVU2gy9VYwFFKzvUnSymhFr3tAuM2s2L2WMTY-u0O&wd=&eqid=a56d1f7f001fca230000000660cdf603"
+                            target="_blank">鲁菜</a>
+                        <a class="dropdown-item"
+                            href="https://www.baidu.com/link?url=HbjgF0deld7eUgROFP2a3CN98bnRimsbfCxPXa7xnCd_YMCIUgsRxBYXWvDiuFN5sJDM3GXORCq__y3VKLKq_CHdK7iTtGYQsuu7joUtd2lBx8YVhcPcGimoMSN-PAH9_mqMiuelOdoBwL-0cvl_QcrAN1CqsZfLj7_CTIKQYtO&wd=&eqid=cb0ca57c00115f430000000660cdf622"
+                            target="_blank">苏菜</a>
+                        <a class="dropdown-item"
+                            href="https://www.baidu.com/link?url=ZPzHSvjD5i6yZvhFQPsLx0UnR4d93NDJxH1H5PDfg4PkztFnI5iVdzjO5Hs6_UQJKcRrhXuJeM9F1vYmdahEFfx6NXQxom-kKBhZTasKD9v-foY0tMkBssyEsJffBbltkusf4MVKXd4dXGtvmsKIWqgbneSWK5iT2y2CnZK0MSa&wd=&eqid=f3bc2f7f0023803b0000000660cdf62c"
+                            target="_blank">浙菜</a>
+                        <a class="dropdown-item"
+                            href="https://www.baidu.com/link?url=SBI0zoSN3TZ8MJIAJhColcIG7VlTipMUhKknYNhu3MA293Q32CH37rDa3ITBBX6yPEbpx87Of3sIqtf20UIguYmrlCe3gyNpVzkp-wroQMq&wd=&eqid=9bf2214300142b370000000660cdf638"
+                            target="_blank">闽菜</a>
+                        <a class="dropdown-item"
+                            href="https://www.baidu.com/link?url=5ZeVggxsrhv9sUu-s6wUZzBrXRBIx1gtu7eB6g6ZHCDsEyQ5L0MyhuGlnWjTO0qcEaxEF1m7uluFFKfS0wod-OFGe_PDFrFxHyhy2hNjn6O&wd=&eqid=b73d3fff0026b50f0000000660cdf647"
+                            target="_blank">湘菜</a>
+                        <a class="dropdown-item"
+                            href="https://www.baidu.com/link?url=AvC1IBOWxxr5JAbSr6iplPFUxAuo2Oknif_pDJcXVra26_5E75tyomthKbUbBJffryA6AATSJcPXTw2LL3lqjSeQKPON5Eb9Wc9HLqdyRyy&wd=&eqid=ca8e560d001254a70000000660cdf656"
+                            target="_blank">徽菜</a>
+                    </div>
+                </li>
+            </ul>
+            <!-- Links -->
+            <form class="form-inline">
+                <div class="md-form my-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                </div>
+            </form>
+        </div>
+    </nav>
+    <!-- Collapsible content -->
+    <div id="intro" class="view">
+
+        <div class="mask rgba-black-strong">
+
+            <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+
+                <div class="row d-flex justify-content-center text-center">
+
+                    <div class="col-md-10">
+
+                        <!-- Heading -->
+                        <h2 class="display-4 font-weight-bold white-text pt-5 mb-2">美食</h2>
+
+                        <!-- Divider -->
+                        <hr class="hr-light">
+
+                        <!-- Description -->
+                        <h4 class="white-text my-4">我想要介绍一下中国的八大美食，但是都是按照我个人的爱好来介绍的，如果你觉得我错了，那就是你对了</h4>
+                        <button type="button" class="btn btn-outline-white">Read more<i
+                                class="fas fa-book ml-2"></i></button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--/.Navbar-->
+</header>
+<!--Main Navigation-->
+<br>
+<br>
+<!--Main layout-->
+<main class="mt-5">
+    <!--Main container-->
+    <div class="container">
+        <!--Grid row 1-->
+        <div class="row">
+            <!--Grid column 1-->
+            <div class="col-md-7 mb-4">
+                <div class="view overlay z-depth-1-half">
+                    <img src="first.jpg" class="card-img-top" alt="">
+                    <div class="mask rgba-white-light"></div>
+                </div>
+            </div>
+            <!--Grid column-->
+            <!--Grid column 2-->
+            <div class="col-md-5 mb-4">
+                <h2>中国八大菜系</h2>
+                <hr>
+                <p>中国传统餐饮文化历史悠久 [3]
+                    ，菜肴在烹饪中有许多流派。在清代形成鲁、川、粤、苏四大菜系（根据徐珂所辑《清稗类钞》中的排序，下同），后来，闽、浙、湘、徽等地方菜也逐渐出名，于是形成了中国的“八大菜系”，即鲁菜、川菜、粤菜、江苏菜、闽菜、浙江菜、湘菜、徽菜。中国人发明了炒（爆、熘）、烧（焖、煨、烩、卤）、煎（溻、贴）、炸（烹）、煮（氽、炖、煲）、蒸、烤（腌、熏、风干）、凉拌、淋等烹饪方式。
+                </p>
+                <a href="https://baike.baidu.com/item/%E5%85%AB%E5%A4%A7%E8%8F%9C%E7%B3%BB/873948?fromtitle=%E4%B8%AD%E5%9B%BD%E5%85%AB%E5%A4%A7%E8%8F%9C%E7%B3%BB&fromid=276513&fr=aladdin"
+                    target="_blank" class="btn btn-indigo">Get it now!</a>
+            </div>
+            <!--Grid column-->
+        </div>
+        <!--Grid row-->
+        <!--Grid row 2-->
+        <div class="row">
+
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-12 mb-4">
+
+                <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img src="second.jpg" class="card-img-top" alt="">
+                        <a href="#">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">川菜</h4>
+                        <!--Text-->
+                        <p class="card-text">这个菜系的菜主要是以辣，麻为主，同时我本人也十分喜爱该菜系
+                        </p>
+                        <a href="https://www.baidu.com/link?url=IFWT6Sk_EfSeowndn76B3ZD9Xjq0uQ3GPZgi6c6HQetzIeYrTgfXYWVNRG4g45QQNt2bVZ8lqYjtuLOKcYi0WeGrF7-LgbupGqvIeuyMRBa&wd=&eqid=bbe4e72300228c3c0000000660cdf5e5"
+                            target="_blank" class="btn red">Button</a>
+                    </div>
+
+                </div>
+                <!--/.Card-->
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4">
+
+                <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img src="third.jpg" class="card-img-top" alt="">
+                        <a href="#">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">粤菜</h4>
+                        <!--Text-->
+                        <p class="card-text">粤菜主要讲究的是追求食材本身的鲜味，不同于川菜带来的刺激感，反正我比较会做的菜是粤菜</p>
+                        <a href="https://www.baidu.com/link?url=DTS0mcXXr7rQxczSVWVwliKYkZfAFntmX0gvxqqqi7GeQwu6UhBHQiv8h-GsjM2pAhoT_hqY4mC6iZIYFutJwO7wz3qD1OzPFNUJQVNfYtm&wd=&eqid=e01dc1490022c21e0000000660cdf613"
+                            target="_blank" class="btn blue">Button</a>
+                    </div>
+
+                </div>
+                <!--/.Card-->
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4">
+
+                <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img src="lu.jpg" class="card-img-top" alt="">
+                        <a href="#">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">鲁菜</h4>
+                        <!--Text-->
+                        <p class="card-text">反正我没有吃过该菜系，但是一直想吃德州扒鸡</p>
+                        <a href="https://www.baidu.com/link?url=KzVZFBKhtmYohtehFeUbDFJM8axWn-0cGsZqOmWa1GEFoWhtvYGidTwZnS4sEq4PqxfVU2gy9VYwFFKzvUnSymhFr3tAuM2s2L2WMTY-u0O&wd=&eqid=a56d1f7f001fca230000000660cdf603"
+                            target="_blank" class="btn yellow">Button</a>
+                    </div>
+
+                </div>
+                <!--/.Card-->
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4">
+
+                <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img src="su.jpg" class="card-img-top" alt="">
+                        <a href="#">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">苏菜</h4>
+                        <!--Text-->
+                        <p class="card-text">我看它在八大菜系的时候还觉得挺奇怪的，我唯一没有听过的一个菜系</p>
+                        <a href="https://www.baidu.com/link?url=HbjgF0deld7eUgROFP2a3CN98bnRimsbfCxPXa7xnCd_YMCIUgsRxBYXWvDiuFN5sJDM3GXORCq__y3VKLKq_CHdK7iTtGYQsuu7joUtd2lBx8YVhcPcGimoMSN-PAH9_mqMiuelOdoBwL-0cvl_QcrAN1CqsZfLj7_CTIKQYtO&wd=&eqid=cb0ca57c00115f430000000660cdf622"
+                            target="_blank" class="btn white">Button</a>
+                    </div>
+
+                </div>
+                <!--/.Card-->
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4">
+
+                <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img src="zhe.jpg" class="card-img-top" alt="">
+                        <a href="#">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">浙菜</h4>
+                        <!--Text-->
+                        <p class="card-text">我一直以为浙菜和苏菜是同一个出身的菜系，不应该有区分才对啊</p>
+                        <a href="https://www.baidu.com/link?url=ZPzHSvjD5i6yZvhFQPsLx0UnR4d93NDJxH1H5PDfg4PkztFnI5iVdzjO5Hs6_UQJKcRrhXuJeM9F1vYmdahEFfx6NXQxom-kKBhZTasKD9v-foY0tMkBssyEsJffBbltkusf4MVKXd4dXGtvmsKIWqgbneSWK5iT2y2CnZK0MSa&wd=&eqid=f3bc2f7f0023803b0000000660cdf62c"
+                            target="_blank" class="btn orange">Button</a>
+                    </div>
+
+                </div>
+                <!--/.Card-->
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-4 mb-4">
+
+                <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img src="min.jpg" class="card-img-top" alt="">
+                        <a href="#">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">闽菜</h4>
+                        <!--Text-->
+                        <p class="card-text">闽菜其实挺好吃的，我吃过的美食个人认为好吃的是面线糊，还有一种用海鲜做出来的饼</p>
+                        <a href="https://www.baidu.com/link?url=SBI0zoSN3TZ8MJIAJhColcIG7VlTipMUhKknYNhu3MA293Q32CH37rDa3ITBBX6yPEbpx87Of3sIqtf20UIguYmrlCe3gyNpVzkp-wroQMq&wd=&eqid=9bf2214300142b370000000660cdf638"
+                            target="_blank" class="btn green">Button</a>
+                    </div>
+
+                </div>
+                <!--/.Card-->
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-4 mb-4">
+
+                <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img src="xian.jpg" class="card-img-top" alt="">
+                        <a href="#">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">湘菜</h4>
+                            <!--Text-->
+                            <p class="card-text">和川菜有的一比，不过看起来个人觉得比川菜还辣，之前吃过一个湖南产的零食把我辣哭了，吃了一包就完全不敢吃了</p>
+                            <a href="https://www.baidu.com/link?url=5ZeVggxsrhv9sUu-s6wUZzBrXRBIx1gtu7eB6g6ZHCDsEyQ5L0MyhuGlnWjTO0qcEaxEF1m7uluFFKfS0wod-OFGe_PDFrFxHyhy2hNjn6O&wd=&eqid=b73d3fff0026b50f0000000660cdf647"
+                                target="_blank" class="btn purple">Button</a>
+                    </div>
+
+                </div>
+                <!--/.Card-->
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-4 mb-4">
+
+                <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img src="hui.jpg" class="card-img-top" alt="">
+                        <a href="#">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">徽菜</h4>
+                        <!--Text-->
+                        <p class="card-text">之前看舌尖上的中国的时候看到有介绍徽菜，听说是以臭出名，听着就不敢吃</p>
+                        <a href="https://www.baidu.com/link?url=AvC1IBOWxxr5JAbSr6iplPFUxAuo2Oknif_pDJcXVra26_5E75tyomthKbUbBJffryA6AATSJcPXTw2LL3lqjSeQKPON5Eb9Wc9HLqdyRyy&wd=&eqid=ca8e560d001254a70000000660cdf656"
+                            target="_blank" class="btn brown">Button</a>
+                    </div>
+
+                </div>
+                <!--/.Card-->
+
+            </div>
+            <!--Grid column-->
+
+
+        </div>
+        <!--Grid row-->
+    </div>
+    <!--Main container-->
+</main>
+
+<!-- Footer -->
+<footer class="page-footer green pt-4 mt-4">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-6 mt-md-0 mt-3">
+
+                <!-- Content -->
+                <h5 class="text-uppercase">网页好难学啊</h5>
+                <p>离开了网页的大模板我都不懂自己能不能写出来</p>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none pb-3">
+
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+
+                <!-- Links -->
+                <h5 class="text-uppercase">Links</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#!">个人小小建议</a>
+                    </li>
+                    <li>
+                        <a href="#!">个人小小建议</a>
+                    </li>
+                    <li>
+                        <a href="#!">个人小小建议</a>
+                    </li>
+                    <li>
+                        <a href="#!">个人小小建议</a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+
+                <!-- Links -->
+                <h5 class="text-uppercase">Links</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#!">胃好使劲吃</a>
+                    </li>
+                    <li>
+                        <a href="#!">养胃吃粤菜</a>
+                    </li>
+                    <li>
+                        <a href="#!">养胃吃闽菜</a>
+                    </li>
+                    <li>
+                        <a href="#!">重口吃徽菜</a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3"> 这边真的不懂写什么了，你可以点开玩下小游戏
+        <a href="http://www.4399.com/"> @玩吧@ </a>
+    </div>
+    <!-- Copyright -->
+
+</footer>
+
+<body>
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <!-- Your custom scripts (optional) -->
+    <script type="text/javascript"></script>
+</body>
+
+</html>
